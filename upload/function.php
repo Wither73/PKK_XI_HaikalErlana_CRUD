@@ -100,7 +100,7 @@ $gambarlama = htmlspecialchars($data["gambarlama"]);
 if ($_FILES["gambar"]["error"] === 4 ) {
     $gambar = $gambarlama;
 }else{
-    $gambar = upload();
+$gambar = upload();
 }
 
     //query insertnya
